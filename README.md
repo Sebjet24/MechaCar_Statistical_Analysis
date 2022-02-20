@@ -15,9 +15,9 @@ In this challenge, I'll help Jeremy and the data analytics team do the following
 ### Linear Regression to Predict MPG
 ![Multiple Linear Regression on MPG](images/mpg_line_regres_summry.png)
 
-* The Vehicle Length (VL) and Ground Clearance (GMC), both of which have been found to be strong indicators of fuel economy, are the most significant factors in our dataset that have a non-random influence on the MPG of the MechaCar. A linear regression model ran on these variables against figures for MPG yielded p-values of 2.6x10sup>-12/sup> and 5.21x10sup>-8/sup>, respectively, as represented by the yellow arrows in the graphic above. The intercept was also statistically significant, indicating that there are likely more factors that have a large influence on the MPG that are not included in our dataset.
-* The linear model's slope cannot be regarded zero since the p-value of 5.35x10sup>-11/sup>, as indicated by the orange arrow above, is less than even an extreme degree of significance, requiring the null hypothesis to be rejected. This suggests that the association between our variables and miles per gallon is more than just a coincidence.
-* Despite the fact that there are still unknown variables, this model can reasonably forecast the mpg of the MechaCar prototype. The purple box highlights the r-squared value of 0.7149, which suggests that the model is 71% accurate.
+ - The Vehicle Length (VL) and Ground Clearance (GMC), both of which have been found to be strong indicators of fuel economy, are the most significant factors in our dataset that have a non-random influence on the MPG of the MechaCar. A linear regression model ran on these variables against figures for MPG yielded p-values of 2.6x10sup>-12/sup> and 5.21x10sup>-8/sup>, respectively, as represented by the yellow arrows in the graphic above. The intercept was also statistically significant, indicating that there are likely more factors that have a large influence on the MPG that are not included in our dataset.
+ - The linear model's slope cannot be regarded zero since the p-value of 5.35x10sup>-11/sup>, as indicated by the orange arrow above, is less than even an extreme degree of significance, requiring the null hypothesis to be rejected. This suggests that the association between our variables and miles per gallon is more than just a coincidence.
+ - Despite the fact that there are still unknown variables, this model can reasonably forecast the mpg of the MechaCar prototype. The purple box highlights the r-squared value of 0.7149, which suggests that the model is 71% accurate.
 
 ### Summary Statistics on Suspension Coils
 ![Suspension Coil Total Summary](images/sus_coil_tot_sum.png)
@@ -27,13 +27,13 @@ In this challenge, I'll help Jeremy and the data analytics team do the following
 ### T-Tests on Suspension Coils
 Suspension Coils Cumulative T-test
 ![Suspension Coils Cumulative T-test](images/sus_coil_one_samp_ttest.png)
-* The T-test findings for the suspension coils across all manufacturing lots demonstrate that they are not statistically different from the population mean, and the p-value (0.0603) is not low enough to reject the null hypothesis.
+ - The T-test findings for the suspension coils across all manufacturing lots demonstrate that they are not statistically different from the population mean, and the p-value (0.0603) is not low enough to reject the null hypothesis.
 ![Suspension Coil Lot 1 T-test](images/sus_coil_lot1_samp_ttest.png)
-* The suspension coils for Lot 1 are not statistically different from the population mean, and the p-value is not low enough (1) to reject the null hypothesis, according to the results of the T-test.
+ - The suspension coils for Lot 1 are not statistically different from the population mean, and the p-value is not low enough (1) to reject the null hypothesis, according to the results of the T-test.
 ![Suspension Coil Lot 2 T-test](images/sus_coil_lot2_samp_ttest.png)
-* A review of the T-test results for Lot 2 suspension coils reveals that they are not statistically different from the population mean, and the p-value (0.6072) is not low enough to reject the null hypothesis.
+ - A review of the T-test results for Lot 2 suspension coils reveals that they are not statistically different from the population mean, and the p-value (0.6072) is not low enough to reject the null hypothesis.
 ![Suspension Coil Lot 3 T-test](images/sus_coil_lot3_samp_ttest.png)
-* The suspension coils for Lot 3 are marginally statistically different from the population mean, according to the T-test findings, and the p-value is just low enough (0.0417) to reject the null hypothesis. This lot may need to be deleted or at the very least reviewed more thoroughly.
+ - The suspension coils for Lot 3 are marginally statistically different from the population mean, according to the T-test findings, and the p-value is just low enough (0.0417) to reject the null hypothesis. This lot may need to be deleted or at the very least reviewed more thoroughly.
 
 ## Study Design: MechaCar vs Competition
  - When deciding whether or not to buy an automobile, shoppers evaluate a number of criteria. Customers wanting to buy a car, on the other hand, are searching for more than just a mode of transportation in a world where ridesharing is becoming more common and it's simple and cheap to move around in other people's vehicles. They will be seeking for an automobile that is a cost-effective way to carry themselves and their belongings on a daily basis.
