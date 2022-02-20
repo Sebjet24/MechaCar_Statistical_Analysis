@@ -37,13 +37,12 @@ Suspension Coils Cumulative T-test
 * The suspension coils for Lot 3 are marginally statistically different from the population mean, according to the T-test findings, and the p-value is just low enough (0.0417) to reject the null hypothesis. This lot may need to be deleted or at the very least reviewed more thoroughly.
 
 ## Study Design: MechaCar vs Competition
-When deciding whether or not to buy an automobile, shoppers evaluate a number of criteria. Customers wanting to buy a car, on the other hand, are searching for more than just a mode of transportation in a world where ridesharing is becoming more common and it's simple and cheap to move around in other people's vehicles. They will be seeking for an automobile that is a cost-effective way to carry themselves and their belongings on a daily basis.
+ - When deciding whether or not to buy an automobile, shoppers evaluate a number of criteria. Customers wanting to buy a car, on the other hand, are searching for more than just a mode of transportation in a world where ridesharing is becoming more common and it's simple and cheap to move around in other people's vehicles. They will be seeking for an automobile that is a cost-effective way to carry themselves and their belongings on a daily basis.
 ### Metric to test
-To narrow down our test, we should compare the carrying capacity of MechaCar to that of several rivals' vehicles in cubic inches.
+ - To narrow down our test, we should compare the carrying capacity of MechaCar to that of several rivals' vehicles in cubic inches.
 ### Null and Alternate Hypothesis
-Hsub>0/sub>: The average carrying capacity of MechaCar prototypes is comparable to that of competitors in the same vehicle class.
-Hsub>a/sub>: The average carrying capacity of MechaCar prototypes is statistically higher or lower than that of rival vehicles.
+ - Hsub>0/sub>: The average carrying capacity of MechaCar prototypes is comparable to that of competitors in the same vehicle class. Hsub>a/sub>: The average carrying capacity of MechaCar prototypes is statistically higher or lower than that of rival vehicles.
 ### Statistical Test Used
-Two-sample t-tests are the best statistical test for this.
+ - Two-sample t-tests are the best statistical test for this.
 ### What data is needed
-We'd need to collect cubic space data from all MechaCar prototypes' carrying compartments, as well as from all main rival cars.
+ - We'd need to collect cubic space data from all MechaCar prototypes' carrying compartments, as well as from all main rival cars.
