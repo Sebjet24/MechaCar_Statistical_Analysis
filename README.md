@@ -22,7 +22,7 @@ In this challenge, I'll help Jeremy and the data analytics team do the following
 ### Summary Statistics on Suspension Coils
 ![Suspension Coil Total Summary](images/sus_coil_tot_sum.png)
 ![Suspension Coil Lot Summary](images/sus_coil_lot_sum.png)
-* While the total variation is under 100 psi and fulfills requirements, there is an issue with one of the individual lots, as seen in the Total Summary data above. The variation for Lot 3 is significantly beyond the permitted level, at 170.28, as seen in the Lot Summary statistics.
+ - While the total variation is under 100 psi and fulfills requirements, there is an issue with one of the individual lots, as seen in the Total Summary data above. The variation for Lot 3 is significantly beyond the permitted level, at 170.28, as seen in the Lot Summary statistics.
 
 ### T-Tests on Suspension Coils
 Suspension Coils Cumulative T-test
